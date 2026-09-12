@@ -5,7 +5,7 @@ using namespace std;
 int ReadPositiveNumber(string Message)
 {
 	int Num;
-	for (int i = 0; i < 3; i++)
+	while (1)
 	{
 		cout << Message << endl;
 		cin >> Num;
